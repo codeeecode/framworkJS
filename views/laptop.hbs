@@ -7,6 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>LAPTOP</h2>
+    <table border="1px ">
+        <tr>
+            <th>laptop</th>
+        </tr>
+        {{#each laptop}}
+            <tr>
+                <td>{{this}}</td>
+            </tr>
+        {{/each}}
+    </table>
 </body>
 </html>
